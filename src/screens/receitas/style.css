@@ -1,0 +1,18 @@
+
+
+h1 {
+    margin: 4% 6%;
+    color: var(--dark-primary-color);
+    font-size: var(--font-size-big);
+}
+
+
+
+.row-recipes {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}

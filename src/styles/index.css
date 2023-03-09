@@ -1,0 +1,133 @@
+.generic-section {
+    width: 100vw;
+    height: 100vh;
+}
+
+#receitas-com-afeto {
+    background-image: url('/assets/images/receitas-com-afeto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    width: 400px;
+    color: #FFFF;
+    font-size: var(--font-size-larger);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 66%;
+    top: 16%;
+}
+
+#titulo-receitas-da-semana {
+    font-size: var(--font-size-big);
+    color: var(--dark-primary-color);
+    text-align: center;
+}
+
+.card-horizontal {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+#comer-e-viver {
+    position: relative;
+    background-image: url(/assets/images/comer-e-viver.png);
+    background-size: cover;
+}
+
+#titulo-comer-e-viver {
+    position:absolute;
+    top: 20%;
+    left: 6%;
+    font-size: var(--font-size-big);
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#comer-e-viver p {
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    color: #FFF;
+    font-size: 24px;
+    width: 400px;
+    font-weight: 500px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+
+@media only screen and (max-width: 480px) {
+    header {
+        display:none;
+    }
+    
+    #receitas-com-afeto {
+        background-size: cover;
+        background-image: url(/assets/images/smartphone/receitas-com-afeto.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+    h1 {
+        position: static;
+        font-size: 3rem;
+    }
+    .show-nav {
+        display: block;
+        position:absolute;
+        top: 10px;
+        left: 15px;
+        width: 3rem;
+        background: 0;
+        border: 0;
+    }
+    .secao-generica h2 {
+        margin: 40px 0px;
+        font-size: 1.6rem;
+
+    }
+
+    .card-horizontal {
+        flex-direction: column;
+    }
+
+    .card-horizontal .card-receita {
+        margin-bottom: 30px;
+    }
+    #comer-e-viver {
+        position: relative;
+        top: 800px;
+        background-image: url(/assets/images/smartphone/comer-e-viver.png);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #titulo-comer-e-viver {
+        position: static;
+        font-size: 2.5rem;
+        margin-bottom: 10%;
+    }
+    
+    #comer-e-viver p {
+        position: static;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        position: relative;
+        top: 800px;
+        font-size: 0.5rem;
+        
+
+    }
+}

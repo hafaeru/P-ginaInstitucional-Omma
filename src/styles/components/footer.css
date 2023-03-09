@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    align-items: center;
+    font-weight: 500px;
+    background-color:  var(--primary-color);
+    color: #FFF;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        position: relative;
+
+        top: 800px;
+        height: 40%;
+        padding: 20px;
+    }
+    
+    footer img {
+        width: 50%;
+    }
+
+    
+}

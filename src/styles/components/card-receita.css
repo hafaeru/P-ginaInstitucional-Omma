@@ -1,0 +1,33 @@
+
+.card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-receita strong {
+    margin: 4px 0px;
+    font-size: var(--font-size-md)
+}
+
+.card-receita button {
+    color: #FFF;
+    border: 0;
+    background-color: var(--button-bg);
+    width: 175px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.card-receita button:hover {
+    background-color:#4abc2d;
+    transition: 0.45s;
+}
+
+/* @media only screen and (max-width: 480px) {
+    .card-receita button {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+} */
